@@ -621,6 +621,7 @@ body {
     }
 
     .bars {
+        font-size: 20px;
         display: inline;
         margin: 0;
     }
@@ -636,10 +637,11 @@ body {
 
     .hero {
         height: min-content;
+        /* border: 1px solid red; */
     }
 
     .slider__img {
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .clothes {
@@ -651,6 +653,10 @@ body {
 
     .clothes__sidebar {
         display: none;
+    }
+
+    .clothes__title {
+        font-size: 1em;
     }
 
     .clothes__filter {
@@ -683,7 +689,7 @@ body {
     }
 
     .btn-filter p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .select-responsive {
@@ -701,6 +707,10 @@ body {
         grid-template-rows: repeat(4, min-content);
         gap: 25px 15px;
         /* border: 2px solid magenta; */
+    }
+
+    .grid-product__opinions, .grid-product__meta {
+        font-size: 10px;
     }
 
     .grid-product__button-more {
@@ -733,9 +743,15 @@ body {
         margin-top: 55px;
     }
 
+    .clock__title {
+        font-size: 1em;
+    }
+
     .clock-grid {
+        padding: 0 15px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 200px);
+        gap: 10px;
     }
 
     .clock-grid__item:nth-child(6) {
