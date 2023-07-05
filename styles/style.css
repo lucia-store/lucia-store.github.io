@@ -84,7 +84,6 @@ body {
 .main {
     width: 80%;
     margin: 100px auto 0;
-    /* border: 1px solid red; */
 }
 
 .hero {
@@ -92,7 +91,6 @@ body {
     height: 80vh;
     position: relative;
     overflow: hidden;
-    /* border: 1px solid black; */
     box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .3);
 }
 
@@ -112,7 +110,6 @@ body {
 .slider__img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
 }
 
 @keyframes change {
@@ -180,7 +177,6 @@ body {
     grid-template-columns: 200px 1fr;
     grid-template-rows: repeat(2, min-content);
     gap: 70px 30px;
-    /* border: 2px solid #48e; */
 }
 
 
@@ -194,7 +190,6 @@ body {
     padding-top: 40px;
     position: sticky;
     top: 80px;
-    /* border: 1px solid green; */
 }
 
 .collection-sidebar__btn {
@@ -208,7 +203,6 @@ body {
     outline: none;
     color: #323232;
     background-color: transparent;
-    /* border: 1px solid green; */
 }
 
 .collection-sidebar__btn span {
@@ -222,7 +216,6 @@ body {
 }
 
 .collection-sidebar__ul {
-    /* border: 1px solid red; */
     overflow: hidden;
     transition: all 0.5s ease;
 }
@@ -231,7 +224,6 @@ body {
     list-style: none;
     padding: 0 0 10px;
     color: #323232;
-    /* border: 1px solid red; */
 }
 
 .collection-sidebar__li--padding-0 {
@@ -268,7 +260,6 @@ body {
     margin-bottom: 15px;
     font-size: 1.5em;
     text-align: center;
-    /* background-color: #48e; */
 }
 
 /* Filter */
@@ -277,7 +268,6 @@ body {
     margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
-    /* background-color: purple; */
 }
 
 .clothes__filter-item-count {
@@ -302,11 +292,9 @@ body {
     grid-template-columns: repeat(4, minmax(100px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 40px 30px;
-    /* border: 1px solid black; */
 }
 
 .grid-product__content {
-    /* border: 1px solid green; */
     position: relative;
 }
 
@@ -330,7 +318,6 @@ body {
 
 .grid-product__opinions {
     font-size: 13px;
-    /* border: 1px solid red; */
 }
 
 .grid-product__image-swatches {
@@ -338,13 +325,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 7px;
-    /* border: 1px solid red; */
 }
 
 .image-swatches__item {
     width: 40px;
     height: 40px;
-    /* margin-left: 7px; */
     border: 1px solid #dddddd;
     padding: 3px;
 }
@@ -356,7 +341,6 @@ body {
 .grid-product__meta {
     text-align: center;
     font-size: 11px;
-    /* border: 1px solid blue; */
 }
 
 .grid-product__meta div {
@@ -364,7 +348,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* border: 1px solid blue; */
 }
 
 .grid-product__meta div p:first-child {
@@ -378,7 +361,6 @@ body {
 .grid-product__button-more {
     margin: auto;
     grid-column: 1 / 5;
-    /* border: 1px solid red; */
 }
 
 .grid-product__button-more button {
@@ -394,16 +376,8 @@ body {
 }
 
 
-/* Man */
-.clothes__man {
-    /* border: 1px solid red; */
-    /* grid-column: 1 / 3; */
-    /* grid-column: 2 / 3; */
-}
-
 /* Woman */
 .clothes__woman {
-    /* border: 1px solid yellow; */
     grid-column: 2 / 3;
 }
 
@@ -419,7 +393,6 @@ body {
     align-items: center;
     justify-content: flex-end;
     cursor: pointer;
-    /* border: 3px solid #48e; */
 }
 
 .shoes img {
@@ -431,7 +404,6 @@ body {
 .shoes__texts {
     position: absolute;
     width: 35%;
-    /* border: 1px solid red; */
 }
 
 .shoes__texts h3 {
@@ -453,7 +425,6 @@ body {
 .clock {
     width: 100%;
     margin-top: 100vh;
-    /* border: 1px solid #48e; */
 }
 
 .clock__title {
@@ -467,14 +438,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 300px);
     gap: 20px;
-    /* border: 1px solid #48e; */
 }
 
 .clock-grid__item {
     position: relative;
     font-size: 25px;
     color: #f2f2f2;
-    /* border: 1px solid black; */
 }
 
 .clock-grid__item img {
@@ -501,7 +470,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    /* background-color: red; */
 }
 
 .clock-grid__container-btn button {
@@ -529,7 +497,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, min-content);
     row-gap: 10px;
-    /* border: 1px solid red; */
 }
 
 .footer__title {
@@ -596,7 +563,7 @@ body {
 
 
 
-/* Responsive Design */
+/* Responsive Design (Mobile) */
 @media screen and (max-width: 375px) {
     .header {
         height: 50px;
@@ -637,7 +604,6 @@ body {
 
     .hero {
         height: min-content;
-        /* border: 1px solid red; */
     }
 
     .slider__img {
@@ -655,10 +621,6 @@ body {
         display: none;
     }
 
-    .clothes__title {
-        font-size: 1em;
-    }
-
     .clothes__filter {
         display: none;
     }
@@ -670,7 +632,6 @@ body {
         display: flex;
         justify-content: space-between;
         gap: 30px;
-        /* border: 1px solid black; */
     }
 
     .btn-filter {
@@ -695,18 +656,17 @@ body {
     .select-responsive {
         width: 50%;
         padding: 10px 5px;
+        font-size: 13px;
         cursor: pointer;
         border: 1px solid #e8e8e1;
         background-color: #fff;
     }
 
     .grid-product {
-        /* padding: 0 15px; */
         display: grid;
         grid-template-columns: repeat(2, minmax(100px, 1fr));
         grid-template-rows: repeat(4, min-content);
         gap: 25px 15px;
-        /* border: 2px solid magenta; */
     }
 
     .grid-product__opinions, .grid-product__meta {
@@ -719,13 +679,11 @@ body {
 
     .clothes__man {
         margin-top: 20px;
-        /* border: 1px solid black; */
     }
 
     .clothes__woman {
         margin-top: 55px;
         grid-column: auto;
-        /* border: 1px solid black; */
     }
 
     .shoes {
@@ -736,15 +694,10 @@ body {
 
     .shoes__texts {
         width: min-content;
-        /* background-color: red; */
     }
 
     .clock {
         margin-top: 55px;
-    }
-
-    .clock__title {
-        font-size: 1em;
     }
 
     .clock-grid {
@@ -756,6 +709,10 @@ body {
 
     .clock-grid__item:nth-child(6) {
         grid-column: 1 / 3;
+    }
+
+    .clock-grid__container-btn button {
+        font-size: 13px;
     }
 
     .footer {
@@ -770,8 +727,6 @@ body {
     }
 
     .footer__grid > div {
-        /* background-color: red; */
-        /* padding-bottom: 20px; */
         position: relative;
         border-bottom: 2px solid #1f1f1f;
     }
@@ -782,7 +737,6 @@ body {
         font-size: 13px;
         font-weight: 500;
         text-align: center;
-        /* background-color: yellow; */
     }
 
     .footer__icon-angle {
